@@ -1,0 +1,11 @@
+﻿int NumA;
+int NumB;
+int NumC;
+NumA = Convert.ToInt32(Console.ReadLine());
+NumB = Convert.ToInt32(Console.ReadLine());
+NumC = Convert.ToInt32(Console.ReadLine());
+int MAX = NumA;
+if (NumA > MAX) MAX = NumA;
+if (NumB > MAX) MAX = NumB;
+if (NumC > MAX) MAX = NumC;
+Console.WriteLine("Это самое большое число: " + MAX);
